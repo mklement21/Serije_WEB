@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <title>Registracija</title>
+    <meta charset="UTF-8">
+    <link href="../css/mklement21.css" rel="stylesheet" type="text/css">
+    <script src="/js/registracija.js" defer></script>
+</head>
+
+<body>
+    <header>Registracija</header>
+    <nav>#navigacija#</nav>
+    <main>
+        <div id="poruka">#poruka#</div>
+        <form action="/registracija" method="POST" onsubmit="return provjeriRegistraciju()">
+            <label for="ime">Ime</label>
+            <input type="text" name="ime" id="ime">
+            <br>
+            <label for="prezime">Prezime</label>
+            <input type="text" name="prezime" id="prezime">
+            <br>
+            <label for="lozinka">Lozinka</label>
+            <input type="password" name="lozinka" id="lozinka">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="korime">Korisničko ime</label>
+            <input type="text" name="korime" id="korime">
+            <br>
+            <label for="spol">Spol</label>
+            <select name="spol" id="spol">
+                <option value="Muški">Muški</option>
+                <option value="Ženski">Ženski</option>
+            </select>
+            <br>
+            <label for="datum_rodenja">Datum rođenja</label>
+            <input type="date" name="datum_rodenja" id="datum_rodenja">
+            <br>
+            <label for="telefon">Broj telefona</label>
+            <input type="tel" name="telefon" id="telefon">
+            <br>
+            <input id="btnPosalji" type="submit" value="Registriraj">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

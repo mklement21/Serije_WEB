@@ -1,0 +1,72 @@
+* {
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	align-items: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: x-large;
+	font-style: oblique;
+	line-height: 3;
+	background-color: rgb(231, 227, 222);
+}
+
+nav, a {
+	background-color: rgb(250, 250, 250);
+	color: rgb(75, 75, 75);
+	text-decoration: none;
+}
+
+#filter {
+	background-color: azure;
+	color: rgb(0, 0, 0);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: x-large;
+	border-radius: 80px;
+	padding: 20px;
+	width: 500px;
+	height: 10px;
+}
+
+
+input {
+	color: black;
+	border-radius: 80px;
+	padding: 20px;
+	width: 500px;
+	height: 10px;
+	background-color:azure;
+}
+
+
+#btnPosalji, button {
+    color: black;
+    background-color: rgb(170, 170, 170);
+    padding: 0px;
+    width: 300px;
+    height: 70px; 
+    border-radius: 50px;
+}
+
+
+#slikaAutor {
+	width: 200px;
+	height: 200px;
+	line-height: 300px;
+	margin: auto;
+	justify-content: center;
+	display: flex;
+	text-align: center;
+}
+
+#era_model {
+	width: 600px;
+	height: 600px;
+}
+
+.tablica {
+	border-collapse: collapse;
+}
+th,
+td {
+	border: 2px solid black;
+}

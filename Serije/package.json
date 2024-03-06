@@ -1,0 +1,20 @@
+{
+  "name": "serije_01",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "scripts": {
+    "pripremi": "npm link --save express sqlite3 express-session cookie-parser",
+    "debug": "nodemon server.mjs serije.csv",
+    "start": "node server.mjs serije.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matea Klement",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "file:../../../../../usr/lib/node_modules/cookie-parser",
+    "express": "file:../../../../../usr/lib/node_modules/express",
+    "express-session": "file:../../../../../usr/lib/node_modules/express-session",
+    "sqlite3": "file:../../../../../usr/lib/node_modules/sqlite3"
+  },
+  "description": ""
+}
